@@ -3,7 +3,7 @@ var app = express();
 var configureRoute = require('./routes/configure').configure;
 
 app.get('/', function(req, res) {
-  res.send('hello world');
+  res.send('hello world my CI and CD on azure its working!!!');
 });
 
 configureRoute(app);
