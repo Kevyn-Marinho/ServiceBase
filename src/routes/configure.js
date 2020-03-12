@@ -1,6 +1,5 @@
 var users = require('./users'); 
 
-// H
-exports.configure = (app) => {
+exports.configure = function (app) {
     app.get('/users', users.get);   
 } 

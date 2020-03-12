@@ -1,6 +1,4 @@
-'use strict';
-
-exports.get = async (req, res) => {
+exports.get = async function(req, res) {
     try {
         const id = req.param.id;
         res.send("User " + id);
