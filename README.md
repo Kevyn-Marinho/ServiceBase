@@ -1,6 +1,7 @@
-## Modelo de api de exemplo utilizando as tecnologias 
+## Modelo simples de API  
 - Ainda em Desenvolvimento
 
+# Tecnologias utilizadas
 * Node (https://nodejs.org/)
 * MongoDb (https://www.mongodb.com/)
 * Docker (https://www.docker.com/)
