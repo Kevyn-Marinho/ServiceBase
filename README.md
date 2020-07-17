@@ -19,7 +19,7 @@
 - Abra o terminal e navegue para o diretório do projeto execute o comando
     * docker-compose build && docker-compose up
 
-- Pcesse o projeto em http://localhost:3000/
+- Acesse o projeto em http://localhost:3000/
 - Para criação do banco é necessário realizar uma inserção de dado 
    *  Para isso faça uma requisição POST para a rota /users
 
@@ -32,8 +32,7 @@
 - Abra o terminal e navegue para o diretório do projeto execute os comandos 
     npm install 
     npm start
-
-acesse o projeto em http://localhost:3000/
+- Acesse o projeto em http://localhost:3000/
 
 # Métodos disponíveis   
     [GET]   /users          - Lista todos os usuários cadastrados no banco
