@@ -1,0 +1,25 @@
+version: '3'
+services: 
+    web: 
+        build: .
+        container_name: servicebase
+        image: node
+        environment: 
+            - MONGO_HOSTNAME=mongo
+            - MONGO_DB=servicebase
+        ports:
+            - "3000:3000"
+        networks: 
+            - servicebase_network
+        depends_on: 
+            - mongo         
+    mongo:
+        image: mongo
+        ports: 
+            - "27017:27017"
+        networks: 
+            - servicebase_network
+        
+networks: 
+    servicebase_network:
+        driver: bridge
