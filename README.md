@@ -1,4 +1,7 @@
 ## Modelo simples de API  
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c2ab7f4b001f4e40999acd0f3479af2a)](https://app.codacy.com/manual/Kevyn-Marinho/ServiceBase?utm_source=github.com&utm_medium=referral&utm_content=Kevyn-Marinho/ServiceBase&utm_campaign=Badge_Grade_Dashboard)
+
 - Ainda em Desenvolvimento
 
 # Tecnologias utilizadas
