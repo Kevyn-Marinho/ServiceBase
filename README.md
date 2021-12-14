@@ -36,6 +36,7 @@
     npm install 
     npm start
 - Acesse o projeto em http://localhost:3000/
+- Para debug no Visual Studio Code, após o npm start, iniciar o debug em "Run and Debug (Ctrl + Shift + D)" clicando em play ou apertando F5  
 
 # Métodos disponíveis   
     [GET]   /users          - Lista todos os usuários cadastrados no banco
