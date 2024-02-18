@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 app.use(express.json())
 
-require('./config/mongoose')();
+// require('./config/mongoose')();
 require('./config/routes')(app);
 
 app.get('/', function(req, res) {
